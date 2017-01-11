@@ -12,6 +12,7 @@ void displayFuncs()
 
 int main()
 {
+	g_pLogin->log_in();
 	while( !procMem->InitializeProcessData( "Counter-Strike: Global Offensive", offsets->hWindow, offsets->dwProcessId, procMem->hProcess ) )
 	{
 		std::cout << ".";
